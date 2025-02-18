@@ -41,7 +41,10 @@ The objective is to analyze NYC taxi trip data to:
 ## 2️. Feature Engineering  
 - Extracted the hour of the day from pickup timestamps to analyze hourly trends in trips and fares.
 - Calculated trip duration in minutes to understand how long trips typically last.
-- Created a new feature, fare_per_mile, to measure the cost efficiency of trips and identify anomalies or trends in pricing.
+- Created a new feature, trip_duration and fare_per_mile, to measure the cost efficiency of trips and identify anomalies or trends in pricing.
+  
+![NYC Taxi Analysis](feature_engg.png)
+  
 ## 3️. SQL-Based Analysis  
 Analyzed average fares by passenger count to understand how group size impacts pricing.
 Examined total trips by pickup hour to identify peak demand periods during the day.
